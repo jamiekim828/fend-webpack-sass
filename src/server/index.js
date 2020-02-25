@@ -11,6 +11,7 @@ var json = {
 };
 
 const app = express();
+
 app.use(cors());
 // to use json
 app.use(bodyParser.json());
